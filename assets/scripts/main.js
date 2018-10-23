@@ -11,7 +11,7 @@ document.body.appendChild(renderer.domElement);
 const geometry = new t.BoxGeometry(1, 1, 1);
 
 // create a material
-const material = new t.MeshBasicMaterial({color: 0xFFFFFF, wireframe: false});
+const material = new t.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true});
 const cube = new t.Mesh(geometry, material);
 // cube.position.y = 1;
 scene.add(cube);
